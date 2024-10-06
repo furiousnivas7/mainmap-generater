@@ -6,11 +6,11 @@ page = st.sidebar.selectbox("Go to", ["Home", "Generate Mind Map", "Customize Mi
 if page == "Home":
     import pages.home
 elif page == "Generate Mind Map":
-    import pages.generate_mindmap
+    import pages.customize_mindmap
 elif page == "Customize Mind Map":
     import pages.customize_mindmap
 elif page == "Previous Mind Maps":
-    import pages.previous_mindmaps
+    import pages.previous_mindmap
 elif page == "Export & Download":
     import pages.export_download
 elif page == "Settings":
