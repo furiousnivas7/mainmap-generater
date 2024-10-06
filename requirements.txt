@@ -1,11 +1,11 @@
-streamlit==1.25.0         # Streamlit framework for the web app interface
-spacy==3.5.3              # For NLP and concept extraction
-transformers==4.32.0      # For using pre-trained AI models (e.g., BERT)
-networkx==3.0             # For mind map graph visualization
-matplotlib==3.8.0         # To help visualize graphs if needed
-Pillow==10.0.0            # For image export capabilities (PNG, etc.)
-pdfplumber==0.9.0         # For PDF file extraction
-PyMuPDF==1.23.3           # Additional library for handling PDFs
-pydub==0.25.1             # For handling audio files (if audio extraction is needed)
-scikit-learn==1.3.1       # Useful for any machine learning-related tasks
-numpy==1.25.2             # Supporting library for numerical processing
+streamlit       # Streamlit framework for the web app interface
+spacy      # For NLP and concept extraction
+transformers     # For using pre-trained AI models (e.g., BERT)
+networkx        # For mind map graph visualization
+matplotlib        # To help visualize graphs if needed
+Pillow        # For image export capabilities (PNG, etc.)
+pdfplumber        # For PDF file extraction
+PyMuPDF        # Additional library for handling PDFs
+pydub        # For handling audio files (if audio extraction is needed)
+scikit-learn       # Useful for any machine learning-related tasks
+numpy            # Supporting library for numerical processing
