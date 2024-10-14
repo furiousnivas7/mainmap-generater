@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.sidebar.title("Mind Map Generator")
-# page = st.sidebar.selectbox("Go to", ["Home", "Generate Mind Map", "Customize Mind Map", "Previous Mind Maps", "Export & Download", "Settings"])
+page = st.sidebar.selectbox("Go to", ["Home", "Generate Mind Map", "Customize Mind Map", "Previous Mind Maps", "Export & Download", "Settings"])
 
 if page == "Home":
     import pages.home
