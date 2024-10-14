@@ -1,17 +1,19 @@
 import streamlit as st
+from pages import home, generate_mindmap, customize_mindmap, previous_mindmaps, settings
 
+# Sidebar for navigation
 st.sidebar.title("Mind Map Generator")
-page = st.sidebar.selectbox("Go to", ["Home", "Generate Mind Map", "Customize Mind Map", "Previous Mind Maps", "Export & Download", "Settings"])
+# Define the `page` variable here with a selectbox for page navigation
+page = st.sidebar.selectbox("Choose a page", ["Home", "Generate Mind Map", "Customize Mind Map", "Previous Mind Maps", "Settings"])
 
+# Page routing
 if page == "Home":
-    import pages.home
+    home.home()
 elif page == "Generate Mind Map":
-    import pages.customize_mindmap
+    generate_mindmap.generate_mind_map()
 elif page == "Customize Mind Map":
-    import pages.customize_mindmap
+    customize_mindmap.customize_mind_map()
 elif page == "Previous Mind Maps":
-    import pages.previous_mindmap
-elif page == "Export & Download":
-    import pages.export_download
+    previous_mindmaps.previous_mind_maps()
 elif page == "Settings":
-    import pages.settings
+    settings.settings()
