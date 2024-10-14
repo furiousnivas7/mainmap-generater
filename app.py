@@ -10,10 +10,10 @@ page = st.sidebar.selectbox("Choose a page", ["Home", "Generate Mind Map", "Cust
 if page == "Home":
     home.home()
 elif page == "Generate Mind Map":
-    generate_mindmap.generate_mind_map()
+    generate_mindmap.generate_mindmap()
 elif page == "Customize Mind Map":
-    customize_mindmap.customize_mind_map()
+    customize_mindmap.customize_mindmap()
 elif page == "Previous Mind Maps":
-    previous_mindmaps.previous_mind_maps()
+    previous_mindmaps.previous_mindmaps()
 elif page == "Settings":
     settings.settings()
